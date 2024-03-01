@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <main className="w-full h-screen grid grid-rows-[1fr_min-content]">
-          <div className="pt-14 px-6 h-full overflow-y-scroll">{children}</div>
+          <div className="h-full overflow-y-scroll">{children}</div>
           <MobileNavBar />
         </main>
       </body>

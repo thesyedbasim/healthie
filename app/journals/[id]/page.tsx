@@ -23,14 +23,19 @@ export default async function JournalDetailsPage({
 
   return (
     <>
-      <div className="space-y-2 mb-6">
-        <Link href="/journals">
-          <Button variant="outline" size="icon">
-            <ChevronLeftIcon className="h-6 w-6" />
-          </Button>
-        </Link>
-        <h1 className="font-extrabold text-3xl">{journalData.hospitalName}</h1>
-        <p className="text-lg">{journalData.location}</p>
+      <div className="bg-primary pb-12 rounded-b-2xl pt-12 px-8">
+        <div className="space-y-2 mb-6">
+          <Link href="/journals">
+            <Button variant="outline" size="icon">
+              <ChevronLeftIcon className="h-6 w-6" />
+            </Button>
+          </Link>
+        </div>
+        <h1 className="text-white text-3xl font-bold mb-4">
+          <span className="text-3xl">{journalData.hospitalName}</span>
+          <p className="text-lg">{journalData.location}</p>
+        </h1>
+        <img src="/ads/volini.jpg" alt="yakult ad" className="rounded-xl" />
       </div>
       <div className="space-y-4">
         <Card className="grid grid-cols-[min-content_1fr] gap-8 p-6 items-center">

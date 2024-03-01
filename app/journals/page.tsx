@@ -22,13 +22,21 @@ export default async function JournalPage() {
 
   return (
     <>
+      <div className="bg-primary pb-12 rounded-b-2xl pt-12 px-8">
+        <h1 className="text-white text-3xl font-bold mb-4">
+          <span className="text-3xl">Health records</span>
+        </h1>
+        <img src="/ads/volini.jpg" alt="yakult ad" className="rounded-xl" />
+      </div>
       <div className="mb-6 flex justify-between items-center">
-        <h1 className="font-extrabold text-3xl">Health records</h1>
-        <Link href="/journals/new">
-          <Button size="icon">
-            <PlusIcon className="h-4 w-4" />
-          </Button>
-        </Link>
+        <div className="flex justify-center w-full mt-6">
+          <Link href="/journals/new">
+            <Button>
+              Add new journal
+              <PlusIcon className="h-4 w-4" />
+            </Button>
+          </Link>
+        </div>
       </div>
       <div className="w-full grid grid-flow-row gap-4">
         {journals.map((journal) => (

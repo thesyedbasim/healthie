@@ -9,7 +9,7 @@ export default function HomeIcon({
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-8 w-8 text-black"
+        className="h-8 w-8 text-white"
         viewBox="0 0 512 512"
       >
         <path d="M261.56 101.28a8 8 0 00-11.06 0L66.4 277.15a8 8 0 00-2.47 5.79L63.9 448a32 32 0 0032 32H192a16 16 0 0016-16V328a8 8 0 018-8h80a8 8 0 018 8v136a16 16 0 0016 16h96.06a32 32 0 0032-32V282.94a8 8 0 00-2.47-5.79z" />
@@ -20,7 +20,7 @@ export default function HomeIcon({
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 w-8 text-black"
+      className="h-8 w-8 text-white"
       viewBox="0 0 512 512"
     >
       <path
