@@ -2,16 +2,6 @@
 
 Healthie is a health-focused application developed for the Bytebash Hackathon at Presidency University. It leverages modern web technologies to provide users with a comprehensive health management platform.
 
-## Table of Contents
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributors](#contributors)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
-
 ## Features
 
 ### Dashboard
