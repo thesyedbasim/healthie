@@ -68,7 +68,7 @@ Add your Firebase configuration and other necessary environment variables.
 - Syed Basim - 20221CAI0048
 - Ahad Malik - 20221CAI0078
 - Mohammed Suhaib - 20221CAI0018
-- Abdul Paveez - 20221CAI0077
+- Abdul Parveez - 20221CAI0077
 
 ### Acknowledgements
 - `Bytebash Hackathon` at Presidency University
